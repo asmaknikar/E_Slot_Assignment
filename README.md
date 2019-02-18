@@ -14,6 +14,7 @@ All of supply, customise and deliver have a deadline, but plan does not. It is p
 
 Most of the fields are self-explanatory except for the following:-
     • facility:-  location where the customization occurs and shipment originates
-    • shipping_method and transit_days: the shipping method the customer requested. Next Day, 2-Day, and 3-Day take 1, 2, and 3 business days respectively; Ground is dependent on the customer location, and takes the amount of business days in transit_days to reach the customer
+    • shipping_method and transit_days: the shipping method the customer requested.
+Next Day, 2-Day, and 3-Day take 1, 2, and 3 business days respectively; Ground is dependent on the customer location, and takes the amount of business days in transit_days to reach the customer
 For testing, you should provide a function, which takes in the path of a test csv file(it would be in the same format as the train file) and prints out the accuracy/relevant metrics.
 For imputing missing data, one method is to assume a joint or a conditional distribution for the missing variables given the other varaibles in the model. Fit this distribution to the known values and use it to predict the missing values. Do not use any other method for imputing missing values. 
