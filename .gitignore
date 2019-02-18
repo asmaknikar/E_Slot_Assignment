@@ -1,3 +1,2 @@
-#/Testing_X.ipynb
-#/tester.ipynb
-/E_Slot.*.ipynb
+*.ipynb
+!ecommerce.ipynb
